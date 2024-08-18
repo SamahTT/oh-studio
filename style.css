@@ -78,8 +78,18 @@ h2{
     font-weight: 500;
 }
 
-footer span{
+.grey-text-span{
     display: block;
     color: var(--grey);
+    cursor: pointer;
+}
+
+.grey-text-span:hover{
+    color: var(--light-grey);
+}
+
+.footer-sm-p{
+    font-size: 12px;
+    margin-top: 0px;
 }
 
